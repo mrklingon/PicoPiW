@@ -29,9 +29,6 @@ def base(request):  # pylint: disable=unused-argument
     return HTTPResponse(body=starships.story()+"\n-----\n"+fstory.story())
 
 # Never returns
-while True:
-    try:
-        server.serve_forever(str(wifi.radio.ipv4_address))
 
-    except:
-        print ("oops!")
+server.serve_forever(str(wifi.radio.ipv4_address))
+
