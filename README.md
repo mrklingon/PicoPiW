@@ -8,3 +8,7 @@ Raspberry Pico Pi W files
 * httpserver_simpletest.py serves web page
 * kwords.py klingon words for diceware
 * mwords.py mando'a words for diceware
+* AllStories.py  - web server writes stories
+* fstory.py        - create fantasy story
+* sample.env    - copy to .env and fill in correct values
+* starships.py   - create SF story
